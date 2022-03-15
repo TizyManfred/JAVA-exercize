@@ -4,9 +4,18 @@ public class Rettangolo {
     private float base;
     private float altezza;
 
-    public Rettangolo() {
+     //definizione di Costruttore vuoto
+    public Rettangolo(){
+        
     }
-
+    
+    //definizione di un costruttore parametrizzato
+    public Rettangolo(float base, float altezza){
+        //la prima base è quella della classe la seconda invece è quella del main
+        this.base = base;
+        this.altezza = altezza;
+    }
+    
     public float getBase() {
         return this.base;
     }

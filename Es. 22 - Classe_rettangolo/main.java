@@ -28,9 +28,8 @@ public class Main {
         System.out.print("Inserisci l'altezza del secondo rettangolo: ");
         float a2 = input.nextFloat();
       
-        Rettangolo r2 = new Rettangolo();
-        r2.setBase(b2);
-        r2.setAltezza(a2);
+        Rettangolo r2 = new Rettangolo(base, altezza);
+        
       
         System.out.println("Il perimetro è: " + r2.perimetroCalcolo());
         System.out.println("L'area è: " + r2.areaCalcolo());

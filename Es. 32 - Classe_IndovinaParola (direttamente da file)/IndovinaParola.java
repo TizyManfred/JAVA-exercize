@@ -1,6 +1,5 @@
-import java.nio.charset.StandardCharsets;
+
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.io.*;
@@ -15,7 +14,6 @@ public class IndovinaParola {
     private boolean parolaIndovinata;
     private char[] arrayParola;
 
-    // private String[] arrayParole = {"ciao" , "domani" , "claudio" , "leonardo" , "cavallo" , "salame" , "cane" , "gatto" , "scuola" , "compiti" , "computer", "python" , "giacomo", "giuseppe"};
     private String[] arrayParole;
 
     // Costruttore - Ver. 1 (il chiamante passa la parola)
@@ -57,6 +55,7 @@ public class IndovinaParola {
         return fileLetto;
     }
 
+    //scegli una parola dal file casualmente
     public String segliParolaDaFile() {
         int numeroParole = numeroParoleFile();
         int numeroParola = (int) ((Math.random() * numeroParole) + 0);
@@ -64,6 +63,7 @@ public class IndovinaParola {
         // File fileLocation = new File("files/parole.txt");
         String parola;
         try (Stream<String> lines = Files.lines(Paths.get("files/parole.txt"))) {
+            //scieglie la parola alla linea x
             parola = lines.skip(numeroParola).findFirst().get();
         }
         catch(IOException e){
@@ -73,6 +73,7 @@ public class IndovinaParola {
         return parola;
     }
 
+    //conta il numero delle parole presenti nel file
     private int numeroParoleFile() {
         int lineCount;
         int i = 0;

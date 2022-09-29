@@ -103,22 +103,24 @@ public class GestioneVoti {
         }
     }
 
+    private float somma(){
+        float somma = 0;
+        
+        for(int i = 0; i < numStudente; i++){
+            somma = somma + studenti[i].getVoto();
+        }
+        return somma;
+    }
+
     public float media()  throws Exception{
         if(numStudente > 0) {
-            float media;
-            float somma = 0;
-
-            for(int i = 0; i < numStudente; i++){
-                somma = somma + studenti[i].getVoto();
-            }
-
-            media = somma/(numStudente);
+            float media = somma()/(numStudente);
+            
             return  media;
         } else {
             throw new Exception("Non hai ancora inserito alcun valore");
         }
     }
-
 
     public float votoMaggiore() throws Exception{
         if(numStudente > 0) {

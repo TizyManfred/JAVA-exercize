@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainGui">
+  <grid id="27dc6" binding="pnlPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="50" left="50" bottom="50" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="532" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a6517" class="javax.swing.JButton" binding="btnInserisciStud">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Inserisci uno studente"/>
+        </properties>
+      </component>
+      <component id="7d81e" class="javax.swing.JButton" binding="btnLeggiVoto">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Visualizza il voto di uno studente"/>
+        </properties>
+      </component>
+      <component id="a93a2" class="javax.swing.JButton" binding="btnMedia">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Visualizza la media"/>
+        </properties>
+      </component>
+      <component id="b2435" class="javax.swing.JButton" binding="btnVotoMax">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Voto Massimo"/>
+        </properties>
+      </component>
+      <component id="6e0ec" class="javax.swing.JButton" binding="btnStampaStud">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Visualizza uno studente"/>
+        </properties>
+      </component>
+      <component id="13359" class="javax.swing.JButton" binding="btnEliminaStud">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Elimina Studente"/>
+        </properties>
+      </component>
+      <component id="7eb0b" class="javax.swing.JButton" binding="btnModificaStud">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Modifica un voto"/>
+        </properties>
+      </component>
+      <component id="644bb" class="javax.swing.JButton" binding="btnElenco">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Visualizza gli studenti"/>
+        </properties>
+      </component>
+      <component id="fc299" class="javax.swing.JLabel" binding="lblSfondo00">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="24" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="11a09" class="javax.swing.JLabel" binding="lblSfondo0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New" size="24" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="b075e" class="javax.swing.JLabel" binding="lblInfo">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Label"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="e8bba" class="javax.swing.JLabel" binding="lblSfondo2">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="b36e5" class="javax.swing.JLabel" binding="lblSfondo4">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="3af74" class="javax.swing.JLabel" binding="lblSfondo1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="de905" class="javax.swing.JLabel" binding="lblSfondo3">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
